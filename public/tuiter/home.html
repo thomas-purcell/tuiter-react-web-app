@@ -8,27 +8,30 @@
   <a href="navigation.html">Back</a>
 
   <h1>Tuiter</h1>
+  <div>
+    <h2>Home</h2>
 
-  <h2>Home</h2>
-
-  <img src="images/mythic-goldfish.jpg"
-       height="48px"
-       width="48px"/>
-  <form id="new-tuit">
-    <form id="tuit-textarea">
-      <textarea cols="20" rows="3" placeholder="What's happening?"></textarea>
+    <img src="images/mythic-goldfish.jpg"
+         height="48px"
+         width="48px"
+    />
+    <form id="new-tuit">
+      <form id="tuit-textarea">
+        <textarea cols="20" rows="3" placeholder="What's happening?"></textarea>
+      </form>
+      <select id="tuit-reply-permission">
+        <option selected value="EVERYONE">Everyone can reply</option>
+        <option value="FOLLOWING">People you follow</option>
+        <option value="MENTIONED">Only people you mention</option>
+      </select>
+      <hr/>
+      <span>
+        <input id="tuit-file" type="file"/>
+        <button type="button">Tuit</button>
+      </span>
+      <hr/>
     </form>
-    <select id="tuit-reply-permission">
-      <option selected value="EVERYONE">Everyone can reply</option>
-      <option value="FOLLOWING">People you follow</option>
-      <option value="MENTIONED">Only people you mention</option>
-    </select>
-    <hr/>
-    <input id="tuit-file" type="file"/>
-    <button type="button">Tuit</button>
-    <hr/>
-  </form>
-
+  </div>
   <ul>
     <li>
       <div>
@@ -37,7 +40,8 @@
           <br/>
           <img src="images/fortnite.jpg"
                height="48px"
-               width="48px"/>
+               width="48px"
+          />
           <a href="profile.html">Thomas</a> @thomas - 2h
         </span>
         <p>
@@ -64,8 +68,9 @@
           <br/>
           <img src="images/fortnite-skin.jpg"
                height="48px"
-               width="48px"/>
-          <a href="profile.html">Gamer</a> @gamer - 2h
+               width="48px"
+          />
+          <a href="profile.html">Gamer</a> @gamer - 1h
         </span>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus enim vitae orci
