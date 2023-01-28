@@ -5,33 +5,28 @@
   <title>Tuiter</title>
 </head>
 <body>
-  <a href="navigation.html">Back</a>
+<a href="navigation.html">Back</a>
 
-  <h1>Tuiter</h1>
+<h1>Tuiter</h1>
 
-  <div>
-    <h2>Tuit</h2>
+<h2>Tuit</h2>
 
-    <img src="images/mythic-goldfish.jpg"
-         height="48px"
-         width="48px"
-    />
-    <form id="new-tuit">
-      <form id="tuit-textarea">
-        <textarea cols="20" rows="3" placeholder="What's happening?"></textarea>
-      </form>
-      <select id="tuit-reply-permission">
-        <option selected value="EVERYONE">Everyone can reply</option>
-        <option value="FOLLOWING">People you follow</option>
-        <option value="MENTIONED">Only people you mention</option>
-      </select>
-      <hr/>
-      <span>
-        <input id="tuit-file" type="file"/>
-        <button type="button">Tuit</button>
-      </span>
-      <hr/>
-    </form>
-  </div>
+<img src="images/fortnite-lebron.webp"
+     height="48px"
+     width="48px"
+/>
+<form id="new-tuit">
+  <textarea id="tuit-body" cols="18" rows="2" placeholder="What's happening?"></textarea>
+  <br/>
+  <select id="tuit-reply-permission">
+    <option selected value="EVERYONE">Everyone can reply</option>
+    <option value="FOLLOWING">People you follow</option>
+    <option value="MENTIONED">Only people you mention</option>
+  </select>
+  <hr/>
+  <input id="tuit-file" type="file"/>
+  <button type="button">Tuit</button>
+  <hr/>
+</form>
 </body>
 </html>
