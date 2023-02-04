@@ -1,0 +1,125 @@
+.wd-bg-color-black {
+  background-color: black;
+}
+
+.wd-bg-color-dark-gray {
+  background-color: darkgray;
+}
+
+.wd-margin-sides-16 {
+  margin: 0 16px;
+}
+
+.wd-margin-auto {
+  margin: auto;
+}
+
+.wd-border {
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  border-style: solid;
+}
+
+.wd-explore-search-bar {
+  padding: 12px;
+  height: 40px;
+}
+
+.wd-flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.wd-rounded-corners {
+  border-radius: 50px;
+}
+
+.wd-width-100pc {
+  width: 100%;
+}
+
+.wd-height-100pc {
+  height: 100%;
+}
+
+.wd-flex-1-1-100pc {
+  flex: 1 1 100%;
+}
+
+.wd-flex-1-1-2pc {
+  flex: 1 1 2%;
+}
+
+.wd-flex-1-1-98pc {
+  flex: 1 1 98%;
+}
+
+.wd-text-align-right {
+  text-align: right;
+}
+
+.wd-text-align-center {
+  text-align: center;
+}
+
+.wd-padding-left-10px {
+  padding-left: 10px;
+}
+
+.wd-padding-right-5px {
+  padding-right: 5px;
+}
+
+.wd-padding-bottom-5px {
+  padding-bottom: 5px;
+}
+
+.wd-text-decoration-none {
+  text-decoration: none;
+}
+
+.wd-font-size-3em {
+  font-size: 3em;
+}
+
+.wd-search-input-box {
+  font-size: 1.5em;
+  box-sizing: border-box;
+  outline-style: none;
+  border-width: 0;
+  background-color: darkgray;
+  color: white;
+}
+
+.wd-color-tuiter-blue {
+  color: rgb(29,161,242);
+}
+
+.wd-color-white {
+  color: white;
+}
+
+.wd-explore-tab {
+  flex: 1 1 100%;
+  padding: 16px;
+  color: rgb(110, 118, 125);
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.wd-explore-active-tab {
+  padding: 16px;
+  display: inline-block;
+  border-bottom: solid;
+  border-color: rgb(29,161,242);
+  color: rgb(29,161,242);
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial;
+  margin: 0 auto;
+}
