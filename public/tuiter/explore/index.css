@@ -3,11 +3,15 @@
 }
 
 .wd-bg-color-dark-gray {
-  background-color: darkgray;
+  background-color: #212327;
 }
 
 .wd-margin-sides-16 {
   margin: 0 16px;
+}
+
+.wd-margin-16 {
+  margin: 16px;
 }
 
 .wd-margin-auto {
@@ -18,6 +22,15 @@
   border-width: 1px;
   border-color: rgb(47, 51, 54);
   border-style: solid;
+}
+
+.wd-border-top-bottom {
+  border-top-width: 1px;
+  border-top-color: rgb(47, 51, 54);
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(47, 51, 54);
+  border-bottom-style: solid;
 }
 
 .wd-explore-search-bar {
@@ -42,6 +55,10 @@
 
 .wd-height-100pc {
   height: 100%;
+}
+
+.wd-height-10px {
+  height: 10px;
 }
 
 .wd-flex-1-1-100pc {
@@ -84,12 +101,15 @@
   font-size: 3em;
 }
 
+.wd-font-size-md {
+  font-size: 1.5em;
+}
+
 .wd-search-input-box {
   font-size: 1.5em;
   box-sizing: border-box;
   outline-style: none;
   border-width: 0;
-  background-color: darkgray;
   color: white;
 }
 
@@ -107,7 +127,6 @@
   color: rgb(110, 118, 125);
   text-align: center;
   font-size: 15px;
-  font-family: Arial;
   margin: 0 auto;
   display: inline-block;
 }
@@ -120,6 +139,34 @@
   color: rgb(29,161,242);
   text-align: center;
   font-size: 15px;
-  font-family: Arial;
   margin: 0 auto;
+}
+
+.wd-color-tuit-info {
+  color: rgb(110, 118, 125);
+}
+
+.wd-font-size-13 {
+  font-size: 13px;
+}
+
+.wd-font-family {
+  font-family: Arial;
+}
+
+.wd-padding-top-bottom-small {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.wd-float-right {
+  float: right;
+}
+
+.wd-height-100px {
+  height: 100px;
+}
+
+.wd-padding-16 {
+  padding: 16px;
 }
