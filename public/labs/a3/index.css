@@ -85,12 +85,12 @@ p#id-selector-2 {
   margin: 30px;
 }
 
-.rounded-corners-top {
+.wd-rounded-corners-top {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
 }
 
-.rounded-corners-bottom {
+.wd-rounded-corners-bottom {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
 }

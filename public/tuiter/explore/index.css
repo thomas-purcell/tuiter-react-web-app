@@ -1,13 +1,5 @@
-.wd-bg-color-black {
-  background-color: black;
-}
-
 .wd-bg-color-dark-gray {
   background-color: #212327;
-}
-
-.wd-margin-sides-16 {
-  margin: 0 16px;
 }
 
 .wd-margin-16 {
@@ -16,12 +8,6 @@
 
 .wd-margin-auto {
   margin: auto;
-}
-
-.wd-border {
-  border-width: 1px;
-  border-color: rgb(47, 51, 54);
-  border-style: solid;
 }
 
 .wd-border-top-bottom {
@@ -77,10 +63,6 @@
   text-align: right;
 }
 
-.wd-text-align-center {
-  text-align: center;
-}
-
 .wd-padding-left-10px {
   padding-left: 10px;
 }
@@ -91,10 +73,6 @@
 
 .wd-padding-bottom-5px {
   padding-bottom: 5px;
-}
-
-.wd-text-decoration-none {
-  text-decoration: none;
 }
 
 .wd-font-size-3em {
@@ -115,10 +93,6 @@
 
 .wd-color-tuiter-blue {
   color: rgb(29,161,242);
-}
-
-.wd-color-white {
-  color: white;
 }
 
 .wd-explore-tab {
@@ -142,25 +116,9 @@
   margin: 0 auto;
 }
 
-.wd-color-tuit-info {
-  color: rgb(110, 118, 125);
-}
-
-.wd-font-size-13 {
-  font-size: 13px;
-}
-
-.wd-font-family {
-  font-family: Arial;
-}
-
 .wd-padding-top-bottom-small {
   padding-top: 2px;
   padding-bottom: 2px;
-}
-
-.wd-float-right {
-  float: right;
 }
 
 .wd-height-100px {
@@ -169,8 +127,4 @@
 
 .wd-padding-16 {
   padding: 16px;
-}
-
-.wd-inline-block {
-  display: inline-block;
 }
