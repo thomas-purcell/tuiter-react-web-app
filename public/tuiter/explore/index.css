@@ -170,3 +170,7 @@
 .wd-padding-16 {
   padding: 16px;
 }
+
+.wd-inline-block {
+  display: inline-block;
+}
