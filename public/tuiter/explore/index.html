@@ -10,44 +10,44 @@
         rel="stylesheet"/>
 </head>
 <body>
-<div id="explore-container" class="container-xxl mt-1">
+<div id="explore-container" class="container mt-1">
   <div class="row gx-4">
-    <div id="explore-navigation" class="col-2">
+    <div id="explore-navigation" class="col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2 col-2">
       <div class="list-group mb-2">
         <a href="#" class="list-group-item list-group-item-action">
           <i class="fab fa-twitter"></i>
         </a>
         <a href="#" class="list-group-item list-group-item-action">
           <i class="fas fa-home"></i>
-          Home
+          <span class="d-none d-xl-inline">Home</span>
         </a>
         <a href="#" class="list-group-item list-group-item-action active">
           <i class="fas fa-hashtag"></i>
-          Explore
+          <span class="d-none d-xl-inline">Explore</span>
         </a>
         <a href="#" class="list-group-item list-group-item-action">
           <i class="fas fa-bell"></i>
-          Notifications
+          <span class="d-none d-xl-inline">Notifications</span>
         </a>
         <a href="#" class="list-group-item list-group-item-action">
           <i class="fas fa-envelope"></i>
-          Messages
+          <span class="d-none d-xl-inline">Messages</span>
         </a>
         <a href="#" class="list-group-item list-group-item-action">
           <i class="fas fa-bookmark"></i>
-          Bookmarks
+          <span class="d-none d-xl-inline">Bookmarks</span>
         </a>
         <a href="#" class="list-group-item list-group-item-action">
           <i class="fas fa-list"></i>
-          Lists
+          <span class="d-none d-xl-inline">Lists</span>
         </a>
         <a href="#" class="list-group-item list-group-item-action">
           <i class="fas fa-user"></i>
-          Profile
+          <span class="d-none d-xl-inline">Profile</span>
         </a>
         <a href="#" class="list-group-item list-group-item-action">
           <i class="fas fa-info-circle"></i>
-          More
+          <span class="d-none d-xl-inline">More</span>
         </a>
       </div>
       <div class="d-grid">
@@ -56,7 +56,7 @@
         </button>
       </div>
     </div>
-    <div id="explore-main-content" class="col-6">
+    <div id="explore-main-content" class="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10 col-10">
       <form>
         <div id="explore-search-bar" class="flex-row d-flex align-items-center mb-2">
           <div class="flex-grow-1 flex-row d-flex align-items-center border rounded-pill py-1">
@@ -86,7 +86,7 @@
         <div class="nav-item">
           <a class="nav-link" href="sports.html">Sports</a>
         </div>
-        <div class="nav-item">
+        <div class="nav-item d-none d-md-block">
           <a class="nav-link" href="entertainment.html">Entertainment</a>
         </div>
       </div>
@@ -98,7 +98,7 @@
       </div>
       <div class="border border-top-0 p-2">
         <div class="row">
-          <div class="col-10">
+          <div class="col-9">
             <div class="fs-6 text-secondary">Web Development</div>
             <div class="fs-6">
               <span class="fw-bold">ReactJS</span>
@@ -111,14 +111,14 @@
               Page Applications or SPAs
             </div>
           </div>
-          <div class="col-2">
-            <img class="float-end rounded image-small" src="../../images/react-logo-black.png"/>
+          <div class="col-3 my-auto">
+            <img class="float-end rounded w-100" src="../../images/react-logo-black.png"/>
           </div>
         </div>
       </div>
       <div class="border border-top-0 p-2">
         <div class="row">
-          <div class="col-10">
+          <div class="col-9">
             <div>
               <span class="fw-bold">JavaScript</span>
               <i class="fas fa-check-circle"></i>
@@ -131,14 +131,14 @@
               123K Tuits
             </div>
           </div>
-          <div class="col-2">
-            <img class="float-end rounded image-small" src="../../images/javascript-logo.png"/>
+          <div class="col-3 my-auto">
+            <img class="float-end rounded w-100" src="../../images/javascript-logo.png"/>
           </div>
         </div>
       </div>
       <div class="border border-top-0 p-2">
         <div class="row">
-          <div class="col-10">
+          <div class="col-9">
             <div class="text-secondary">Web Development</div>
             <div>
               <span class="fw-bold">jQuery</span>
@@ -147,14 +147,14 @@
               123K Tuits
             </div>
           </div>
-          <div class="col-2">
-            <img class="float-end rounded image-small" src="../../images/jquery-logo.png"/>
+          <div class="col-3 my-auto">
+            <img class="float-end rounded w-100" src="../../images/jquery-logo.png"/>
           </div>
         </div>
       </div>
       <div class="border border-top-0 p-2">
         <div class="row">
-          <div class="col-10">
+          <div class="col-9">
             <div class="text-secondary">Web Development</div>
             <div>
               <span class="fw-bold">NodeJS</span>
@@ -165,90 +165,80 @@
               123K Tuits
             </div>
           </div>
-          <div class="col-2">
-            <img class="float-end rounded image-small" src="../../images/nodejs-logo.jpg"/>
+          <div class="col-3 my-auto">
+            <img class="float-end rounded w-100" src="../../images/nodejs-logo.jpg"/>
           </div>
         </div>
       </div>
     </div>
-    <div id="explore-suggestions" class="col-4">
+    <div id="explore-suggestions" class="col-xxl-4 col-xl-4 col-lg-4 d-none d-lg-block">
       <div class="list-group">
         <div class="list-group-item fw-bold fs-sm">
           Who to follow
         </div>
-        <div class="list-group-item">
-          <div class="d-flex flex-row align-items-center">
-            <div class="pe-2">
-              <img class="rounded-circle image-avatar"
-                   src="../../images/java-logo.png"/>
-            </div>
-            <div class="flex-grow-1 px-3">
-              <div class="fw-bold">Java <i class="fas fa-check-circle"></i></div>
-              <div class="text-secondary">@Java</div>
-            </div>
-            <div>
-              <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
-            </div>
+        <div class="list-group-item p-lg-2 d-flex flex-row align-items-center">
+          <div class="pe-xxl-2 pe-xl-2 pe-lg-1">
+            <img class="rounded-circle image-avatar"
+                 src="../../images/java-logo.png"/>
+          </div>
+          <div class="flex-grow-1 px-xxl-3 px-xl-3">
+            <div class="fw-bold">Java <i class="fas fa-check-circle"></i></div>
+            <div class="text-secondary">@Java</div>
+          </div>
+          <div>
+            <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
           </div>
         </div>
-        <div class="list-group-item">
-          <div class="d-flex flex-row align-items-center">
-            <div class="pe-2">
-              <img class="rounded-circle image-avatar"
-                   src="../../images/relativity-space-logo.jpg"/>
-            </div>
-            <div class="flex-grow-1 px-3">
-              <div class="fw-bold">Relativity Space <i class="fas fa-check-circle"></i></div>
-              <div class="text-secondary">@relativityspace</div>
-            </div>
-            <div>
-              <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
-            </div>
+        <div class="list-group-item p-lg-2 d-flex flex-row align-items-center">
+          <div class="pe-xxl-2 pe-xl-2 pe-lg-1">
+            <img class="rounded-circle image-avatar"
+                 src="../../images/relativity-space-logo.jpg"/>
+          </div>
+          <div class="flex-grow-1 px-xxl-3 px-xl-3">
+            <div class="fw-bold">Relativity Space <i class="fas fa-check-circle"></i></div>
+            <div class="text-secondary">@relativityspace</div>
+          </div>
+          <div>
+            <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
           </div>
         </div>
-        <div class="list-group-item">
-          <div class="d-flex flex-row align-items-center">
-            <div class="pe-2">
-              <img class="rounded-circle image-avatar"
-                   src="../../images/virgin-galactic-logo.png"/>
-            </div>
-            <div class="flex-grow-1 px-3">
-              <div class="fw-bold">Virgin Galactic <i class="fas fa-check-circle"></i></div>
-              <div class="text-secondary">@virgingalactic</div>
-            </div>
-            <div>
-              <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
-            </div>
+        <div class="list-group-item p-lg-2 d-flex flex-row align-items-center">
+          <div class="pe-xxl-2 pe-xl-2 pe-lg-1">
+            <img class="rounded-circle image-avatar"
+                 src="../../images/virgin-galactic-logo.png"/>
+          </div>
+          <div class="flex-grow-1 px-xxl-3 px-xl-3">
+            <div class="fw-bold">Virgin Galactic <i class="fas fa-check-circle"></i></div>
+            <div class="text-secondary">@virgingalactic</div>
+          </div>
+          <div>
+            <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
           </div>
         </div>
-        <div class="list-group-item">
-          <div class="d-flex flex-row align-items-center">
-            <div class="pe-2">
-              <img class="rounded-circle image-avatar"
-                   src="../../images/nasa-logo.jpg"/>
-            </div>
-            <div class="flex-grow-1 px-3">
-              <div class="fw-bold">NASA <i class="fas fa-check-circle"></i></div>
-              <div class="text-secondary">@NASA</div>
-            </div>
-            <div>
-              <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
-            </div>
+        <div class="list-group-item p-lg-2 d-flex flex-row align-items-center">
+          <div class="pe-xxl-2 pe-xl-2 pe-lg-1">
+            <img class="rounded-circle image-avatar"
+                 src="../../images/nasa-logo.jpg"/>
+          </div>
+          <div class="flex-grow-1 px-xxl-3 px-xl-3">
+            <div class="fw-bold">NASA <i class="fas fa-check-circle"></i></div>
+            <div class="text-secondary">@NASA</div>
+          </div>
+          <div>
+            <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
           </div>
         </div>
-        <div class="list-group-item">
-          <div class="d-flex flex-row align-items-center">
-            <div class="pe-2">
-              <img class="rounded-circle image-avatar"
-                   src="../../images/tesla-logo.png"/>
-            </div>
-            <div class="flex-grow-1 px-3">
-              <div class="fw-bold">Tesla <i class="fas fa-check-circle"></i></div>
-              <div class="text-secondary">@Tesla</div>
-            </div>
-            <div>
-              <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
-            </div>
+        <div class="list-group-item p-lg-2 d-flex flex-row align-items-center">
+          <div class="pe-xxl-2 pe-xl-2 pe-lg-1">
+            <img class="rounded-circle image-avatar"
+                 src="../../images/tesla-logo.png"/>
+          </div>
+          <div class="flex-grow-1 px-xxl-3 px-xl-3">
+            <div class="fw-bold">Tesla <i class="fas fa-check-circle"></i></div>
+            <div class="text-secondary">@Tesla</div>
+          </div>
+          <div>
+            <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
           </div>
         </div>
       </div>
