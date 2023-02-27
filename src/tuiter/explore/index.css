@@ -23,3 +23,8 @@
 .wd-bottom-4 {
   bottom: 4px;
 }
+
+.wd-no-border {
+  border: 0;
+  outline: none;
+}

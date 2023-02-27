@@ -1,3 +1,6 @@
+import { faBell, faBookmark, faEnvelope, faHashtag, faHome, faInfoCircle, faKiwiBird, faList, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const NavigationSidebar = (
@@ -7,38 +10,49 @@ const NavigationSidebar = (
 ) => {
   return (
     <div className="list-group">
-      <a className="list-group-item">Tuiter</a>
+      <a className="list-group-item">
+        <FontAwesomeIcon icon={faTwitter}/>
+        <span className="d-none d-xl-inline"> Tuiter</span>
+      </a>
       <a className={`list-group-item
                     ${active === 'home' ? 'active' : ''}`}>
-        Home
+        <FontAwesomeIcon icon={faHome}/>
+        <span className="d-none d-xl-inline"> Home</span>
       </a>
       <a className={`list-group-item
                     ${active === 'explore' ? 'active' : ''}`}>
-        Explore
+        <FontAwesomeIcon icon={faHashtag}/>
+        <span className="d-none d-xl-inline"> Explore</span>
       </a>
       <a className={`list-group-item
                     ${active === 'notifications' ? 'active' : ''}`}>
-        Notifications
+        <FontAwesomeIcon icon={faBell}/>
+        <span className="d-none d-xl-inline"> Notifications</span>
       </a>
       <a className={`list-group-item
                     ${active === 'messages' ? 'active' : ''}`}>
-        Messages
+        <FontAwesomeIcon icon={faEnvelope}/>
+        <span className="d-none d-xl-inline"> Messages</span>
       </a>
       <a className={`list-group-item
                     ${active === 'bookmarks' ? 'active' : ''}`}>
-        Bookmarks
+        <FontAwesomeIcon icon={faBookmark}/>
+        <span className="d-none d-xl-inline"> Bookmarks</span>
       </a>
       <a className={`list-group-item
                     ${active === 'lists' ? 'active' : ''}`}>
-        Lists
+        <FontAwesomeIcon icon={faList}/>
+        <span className="d-none d-xl-inline"> Lists</span>
       </a>
       <a className={`list-group-item
                     ${active === 'profile' ? 'active' : ''}`}>
-        Profile
+        <FontAwesomeIcon icon={faUser}/>
+        <span className="d-none d-xl-inline"> Profile</span>
       </a>
       <a className={`list-group-item
                     ${active === 'more' ? 'active' : ''}`}>
-        More
+        <FontAwesomeIcon icon={faInfoCircle}/>
+        <span className="d-none d-xl-inline"> More</span>
       </a>
     </div>
   );
