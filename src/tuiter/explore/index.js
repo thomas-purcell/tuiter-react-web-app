@@ -14,26 +14,26 @@ const ExploreComponent = () => {
             className="flex-grow-1 wd-no-border rounded-pill ps-2" placeholder="Search Tuiter" />
         </div>
         <div className="ps-4">
-          <a href="explore-settings.html">
+          <a>
             <FontAwesomeIcon icon={faCog} size={"2x"} className="align-middle text-primary"/>
           </a>
         </div>
       </div>
       <div className="nav nav-tabs mb-2">
         <div className="nav-item">
-          <a className="nav-link active" aria-current="page" href="for-you.html">For you</a>
+          <a className="nav-link active" aria-current="page">For you</a>
         </div>
         <div className="nav-item">
-          <a className="nav-link" href="trending.html">Trending</a>
+          <a className="nav-link">Trending</a>
         </div>
         <div className="nav-item">
-          <a className="nav-link" href="news.html">News</a>
+          <a className="nav-link">News</a>
         </div>
         <div className="nav-item">
-          <a className="nav-link" href="sports.html">Sports</a>
+          <a className="nav-link">Sports</a>
         </div>
         <div className="nav-item d-none d-md-block">
-          <a className="nav-link" href="entertainment.html">Entertainment</a>
+          <a className="nav-link">Entertainment</a>
         </div>
       </div>
       <div className="card rounded-0">
