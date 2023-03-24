@@ -16,12 +16,14 @@ const NavigationSidebar = (
           <span className="d-none d-xl-inline"> Tuiter</span>
         </a>
         <a className={`list-group-item
-                    ${active === 'home' ? 'active' : ''}`}>
+                    ${active === 'home' ? 'active' : ''}`}
+                    href="/tuiter">
           <FontAwesomeIcon icon={faHome} />
           <span className="d-none d-xl-inline"> Home</span>
         </a>
         <a className={`list-group-item
-                    ${active === 'explore' ? 'active' : ''}`}>
+                    ${active === 'explore' ? 'active' : ''}`}
+                    href="/tuiter/explore">
           <FontAwesomeIcon icon={faHashtag} />
           <span className="d-none d-xl-inline"> Explore</span>
         </a>
