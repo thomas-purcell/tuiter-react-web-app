@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PostSummaryList from "../post-summary-list";
 import "./index.css";
 import { faCog, faSearch } from "@fortawesome/free-solid-svg-icons";
+import TuitsList from "../tuits/tuits-list";
 const ExploreComponent = () => {
   return (
     <>
@@ -42,7 +43,7 @@ const ExploreComponent = () => {
           <h2 className="card-title mt-auto mb-1 text-white">SpaceX Starship</h2>
         </div>
       </div>
-      <PostSummaryList />
+      <TuitsList />
     </>
   );
 };

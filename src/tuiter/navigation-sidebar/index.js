@@ -58,8 +58,8 @@ const NavigationSidebar = (
           <span className="d-none d-xl-inline"> More</span>
         </a>
       </div>
-      <div class="d-grid">
-        <a class="btn btn-primary btn-block rounded-pill">
+      <div className="d-grid">
+        <a className="btn btn-primary btn-block rounded-pill">
           Tuit
         </a>
       </div>

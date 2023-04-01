@@ -9,7 +9,7 @@ import { Routes, Route } from "react-router";
 import { Provider } from "react-redux";
 import Home from "./home";
 
-const store = configureStore({ reducer: { who: whoReducer, tuits: tuitsReducer } });
+const store = configureStore({ reducer: { who: whoReducer, tuitsData: tuitsReducer } });
 
 function Tuiter() {
   return (
